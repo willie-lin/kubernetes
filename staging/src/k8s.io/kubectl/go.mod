@@ -5,13 +5,12 @@ module k8s.io/kubectl
 go 1.12
 
 require (
-	github.com/Azure/go-ansiterm v0.0.0-20170929234023-d6e3b3328b78 // indirect
 	github.com/MakeNowJust/heredoc v0.0.0-20170808103936-bb23615498cd
 	github.com/chai2010/gettext-go v0.0.0-20160711120539-c6fed771bfd5
 	github.com/davecgh/go-spew v1.1.1
 	github.com/daviddengcn/go-colortext v0.0.0-20160507010035-511bcaf42ccd
 	github.com/docker/distribution v2.7.1+incompatible
-	github.com/docker/docker v0.7.3-0.20190327010347-be7ac8be2ae0
+	github.com/docker/docker v20.10.24+incompatible
 	github.com/evanphx/json-patch v4.2.0+incompatible
 	github.com/exponent-io/jsonpath v0.0.0-20151013193312-d6023ce2651d
 	github.com/fatih/camelcase v1.0.0
@@ -24,17 +23,16 @@ require (
 	github.com/liggitt/tabwriter v0.0.0-20181228230101-89fcab3d43de
 	github.com/lithammer/dedent v1.1.0
 	github.com/mitchellh/go-wordwrap v1.0.0
+	github.com/moby/term v0.5.0 // indirect
 	github.com/onsi/ginkgo v1.8.0
 	github.com/onsi/gomega v1.5.0
 	github.com/opencontainers/go-digest v1.0.0-rc1 // indirect
 	github.com/russross/blackfriday v1.5.2
-	github.com/sirupsen/logrus v1.4.2 // indirect
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
-	golang.org/x/sys v0.0.0-20190616124812-15dcb6c0061f
+	golang.org/x/sys v0.1.0
 	gopkg.in/yaml.v2 v2.2.2
-	gotest.tools v2.2.0+incompatible // indirect
 	k8s.io/api v0.0.0
 	k8s.io/apimachinery v0.0.0
 	k8s.io/cli-runtime v0.0.0
