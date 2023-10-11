@@ -12,7 +12,7 @@ require (
 	github.com/spf13/cobra v0.0.5
 	github.com/spf13/pflag v1.0.3
 	github.com/stretchr/testify v1.3.0
-	golang.org/x/net v0.0.0-20190812203447-cdfb69ac37fc
+	golang.org/x/net v0.17.0
 	k8s.io/api v0.0.0
 	k8s.io/apimachinery v0.0.0
 	k8s.io/apiserver v0.0.0
